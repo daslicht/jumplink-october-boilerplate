@@ -1,7 +1,7 @@
 var yaml = {
     write: require('write-yaml')
 }
-//console.log("!!!!!!bsPkg:",__dirname+'../assets/vendor/bootstrap-backward/package.json');return;
+
 var bsPkg = require(__dirname+'/../assets/vendor/bootstrap-backward/package.json');
 var bootstrap_variables = require(__dirname+'/../assets/vendor/bootstrap-backward/variables.json');
 var groups = {};
